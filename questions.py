@@ -35,17 +35,7 @@ for list_element in question_data:
     list_element = Question(question = list_element['question'], answer_a = list_element['answer_a'], answer_b = list_element['answer_b'], answer_c = list_element['answer_c'], correct_answer = list_element['correct_answer'])
     list_element.save()
 
-user = input("To creat a card press C, to Quiz yourself, press G! ")
-if(user == "C"):
-    question = input("Enter your question! ")
-    answer_a = input("Enter answer A ")
-    answer_b = input("Enter answer B ")
-    answer_c = input("Enter answer C ")
-    correct_answer = input("Enter the letter of the correct answer! ")
-    new_question = Question(question = question, answer_a = answer_a, answer_b = answer_b, answer_c = answer_c, correct_answer = correct_answer)
-    new_question.save()
-    
-if(user == "G"):
+def game():
     question_list = Question.select()
     count = 0
     for game_question in question_list:
@@ -58,6 +48,19 @@ if(user == "G"):
             print(f"Not quite! The correct answer was {game_question.correct_answer}.")
         else:
             print(f"Good job! You answered {count} questions correctly!")
+
+user = input("To creat a card press C, to Quiz yourself, press G! ")
+if(user == "C"):
+    question = input("Enter your question! ")
+    answer_a = input("Enter answer A ")
+    answer_b = input("Enter answer B ")
+    answer_c = input("Enter answer C ")
+    correct_answer = input("Enter the letter of the correct answer! ")
+    new_question = Question(question = question, answer_a = answer_a, answer_b = answer_b, answer_c = answer_c, correct_answer = correct_answer)
+    new_question.save()
+    
+if(user == "G"):
+    game()
    
 
 
