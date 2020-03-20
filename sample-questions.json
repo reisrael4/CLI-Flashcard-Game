@@ -1,290 +1,171 @@
 [
   {
-    "": 0,
-    "showID": 5091813,
-    "questionID": 38301,
-    "questionNumber": 1,
-    "category": "Educational",
     "question": "Which of these is a vehicle with three wheels?",
-    "questionTime": "1:04:43 PM",
     "answers": [
       {
         "answerOption": "A",
         "answerText": "Tricycle",
-        "isCorrect": "TRUE"
+        "isCorrect": true
       },
       {
         "answerOption": "B",
         "answerText": "Trick Daddy",
-        "isCorrect": "FALSE"
+        "isCorrect": false
       },
-      { "answerOption": "C", "answerText": "Triceratops", "isCorrect": "FALSE" }
-    ],
-    "count": 694486,
-    "answerTime\r": "1:05:08 PM\r"
+      { "answerOption": "C", "answerText": "Triceratops", "isCorrect": false }
+    ]
   },
   {
-    "": 3,
-    "showID": 5091813,
-    "questionID": 38302,
-    "questionNumber": 2,
-    "category": "",
     "question": "What word does Aretha Franklin spell out in her iconic 1967 hit?",
-    "questionTime": "1:05:22 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Respect", "isCorrect": "TRUE" },
-      { "answerOption": "B", "answerText": "Robocop", "isCorrect": "FALSE" },
-      { "answerOption": "C", "answerText": "Ridonkulous", "isCorrect": "FALSE" }
-    ],
-    "count": 647036,
-    "answerTime\r": "1:05:47 PM\r"
+      { "answerOption": "A", "answerText": "Respect", "isCorrect": true },
+      { "answerOption": "B", "answerText": "Robocop", "isCorrect": false },
+      { "answerOption": "C", "answerText": "Ridonkulous", "isCorrect": false }
+    ]
   },
   {
-    "": 6,
-    "showID": 5091813,
-    "questionID": 38303,
-    "questionNumber": 3,
-    "category": "Geography",
     "question": "What Canadian province's name is Latin for \"New Scotland\"?",
-    "questionTime": "1:06:03 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Nova Scotia", "isCorrect": "TRUE" },
-      { "answerOption": "B", "answerText": "Ontario", "isCorrect": "FALSE" },
-      { "answerOption": "C", "answerText": "Alberta", "isCorrect": "FALSE" }
-    ],
-    "count": 597330,
-    "answerTime\r": "1:06:23 PM\r"
+      { "answerOption": "A", "answerText": "Nova Scotia", "isCorrect": true },
+      { "answerOption": "B", "answerText": "Ontario", "isCorrect": false },
+      { "answerOption": "C", "answerText": "Alberta", "isCorrect": false }
+    ]
   },
   {
-    "": 9,
-    "showID": 5091813,
-    "questionID": 38308,
-    "questionNumber": 4,
-    "category": "Science ",
     "question": "Which of these speeds is typically fastest?",
-    "questionTime": "1:06:40 PM",
     "answers": [
       {
         "answerOption": "A",
         "answerText": "Speed of light",
-        "isCorrect": "TRUE"
+        "isCorrect": true
       },
       {
         "answerOption": "B",
         "answerText": "Speed of sound",
-        "isCorrect": "FALSE"
+        "isCorrect": false
       },
       {
         "answerOption": "C",
         "answerText": "They're the same",
-        "isCorrect": "FALSE"
+        "isCorrect": false
       }
-    ],
-    "count": 528612,
-    "answerTime\r": "1:07:08 PM\r"
+    ]
   },
   {
-    "": 12,
-    "showID": 5091813,
-    "questionID": 38307,
-    "questionNumber": 5,
-    "category": "Sports",
     "question": "Three consecutive strikes is known as a turkey in which of these sports?",
-    "questionTime": "1:07:19 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Bowling", "isCorrect": "TRUE" },
-      { "answerOption": "B", "answerText": "Cricket", "isCorrect": "FALSE" },
-      { "answerOption": "C", "answerText": "Volleyball", "isCorrect": "FALSE" }
-    ],
-    "count": 447067,
-    "answerTime\r": "1:07:45 PM\r"
+      { "answerOption": "A", "answerText": "Bowling", "isCorrect": true },
+      { "answerOption": "B", "answerText": "Cricket", "isCorrect": false },
+      { "answerOption": "C", "answerText": "Volleyball", "isCorrect": false }
+    ]
   },
   {
-    "": 15,
-    "showID": 5091813,
-    "questionID": 38306,
-    "questionNumber": 6,
-    "category": "Music",
     "question": "At the start of his career, Justin Bieber was mentored by which of these musicians?",
-    "questionTime": "1:07:59 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Jay-Z", "isCorrect": "FALSE" },
-      { "answerOption": "B", "answerText": "Usher", "isCorrect": "TRUE" },
-      { "answerOption": "C", "answerText": "DJ Khaled", "isCorrect": "FALSE" }
-    ],
-    "count": 67431,
-    "answerTime\r": "1:08:26 PM\r"
+      { "answerOption": "A", "answerText": "Jay-Z", "isCorrect": false },
+      { "answerOption": "B", "answerText": "Usher", "isCorrect": true },
+      { "answerOption": "C", "answerText": "DJ Khaled", "isCorrect": false }
+    ]
   },
   {
-    "": 18,
-    "showID": 5091813,
-    "questionID": 38304,
-    "questionNumber": 7,
-    "category": "Educational",
     "question": "By definition, which of these words can refer to a college graduation ceremony?",
-    "questionTime": "1:08:42 PM",
     "answers": [
       {
         "answerOption": "A",
         "answerText": "Commencement",
-        "isCorrect": "TRUE"
+        "isCorrect": true
       },
       {
         "answerOption": "B",
         "answerText": "Matriculation",
-        "isCorrect": "FALSE"
+        "isCorrect": false
       },
-      { "answerOption": "C", "answerText": "Initiation", "isCorrect": "FALSE" }
-    ],
-    "count": 334372,
-    "answerTime\r": "1:09:06 PM\r"
+      { "answerOption": "C", "answerText": "Initiation", "isCorrect": false }
+    ]
   },
   {
-    "": 21,
-    "showID": 5091813,
-    "questionID": 38309,
-    "questionNumber": 8,
-    "category": "Sports",
     "question": "Which of these baseball pitches puts the least spin on the ball?",
-    "questionTime": "1:09:20 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Curveball", "isCorrect": "FALSE" },
-      { "answerOption": "B", "answerText": "Fastball", "isCorrect": "FALSE" },
-      { "answerOption": "C", "answerText": "Knuckleball", "isCorrect": "TRUE" }
-    ],
-    "count": 19501,
-    "answerTime\r": "1:09:45 PM\r"
+      { "answerOption": "A", "answerText": "Curveball", "isCorrect": false },
+      { "answerOption": "B", "answerText": "Fastball", "isCorrect": false },
+      { "answerOption": "C", "answerText": "Knuckleball", "isCorrect": true }
+    ]
   },
   {
-    "": 24,
-    "showID": 5091813,
-    "questionID": 38310,
-    "questionNumber": 9,
-    "category": "Entertainment",
     "question": "The name of Shakespeare's only son is one letter off from the title of what play?",
-    "questionTime": "1:10:03 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Macbeth", "isCorrect": "FALSE" },
-      { "answerOption": "B", "answerText": "Othello", "isCorrect": "FALSE" },
-      { "answerOption": "C", "answerText": "Hamlet", "isCorrect": "TRUE" }
-    ],
-    "count": 23642,
-    "answerTime\r": "1:10:33 PM\r"
+      { "answerOption": "A", "answerText": "Macbeth", "isCorrect": false },
+      { "answerOption": "B", "answerText": "Othello", "isCorrect": false },
+      { "answerOption": "C", "answerText": "Hamlet", "isCorrect": true }
+    ]
   },
   {
-    "": 27,
-    "showID": 5091813,
-    "questionID": 38305,
-    "questionNumber": 10,
-    "category": "Educational",
     "question": "Which of these terms comes from a French phrase that means \"come help me\"?",
-    "questionTime": "1:10:48 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Ahoy", "isCorrect": "FALSE" },
-      { "answerOption": "B", "answerText": "Mayday", "isCorrect": "TRUE" },
-      { "answerOption": "C", "answerText": "SOS", "isCorrect": "FALSE" }
-    ],
-    "count": 5704,
-    "answerTime\r": "1:11:18 PM\r"
+      { "answerOption": "A", "answerText": "Ahoy", "isCorrect": false },
+      { "answerOption": "B", "answerText": "Mayday", "isCorrect": true },
+      { "answerOption": "C", "answerText": "SOS", "isCorrect": false }
+    ]
   },
   {
-    "": 30,
-    "showID": 5091813,
-    "questionID": 38311,
-    "questionNumber": 11,
-    "category": "Entertainment",
     "question": "Which of these celebrities does NOT go by his middle name?",
-    "questionTime": "1:11:33 PM",
     "answers": [
       {
         "answerOption": "A",
         "answerText": "Bruce Willis",
-        "isCorrect": "FALSE"
+        "isCorrect": false
       },
       {
         "answerOption": "B",
         "answerText": "Ashton Kutcher",
-        "isCorrect": "FALSE"
+        "isCorrect": false
       },
       {
         "answerOption": "C",
         "answerText": "Justin Timberlake",
-        "isCorrect": "TRUE"
+        "isCorrect": true
       }
-    ],
-    "count": 14666,
-    "answerTime\r": "1:11:58 PM\r"
+    ]
   },
   {
-    "": 33,
-    "showID": 5091813,
-    "questionID": 38312,
-    "questionNumber": 12,
-    "category": "History",
     "question": "Of these three states, which has been the birthplace of the most US presidents?",
-    "questionTime": "1:12:38 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Illinois", "isCorrect": "FALSE" },
-      { "answerOption": "B", "answerText": "Vermont", "isCorrect": "TRUE" },
-      { "answerOption": "C", "answerText": "Georgia", "isCorrect": "FALSE" }
-    ],
-    "count": 12871,
-    "answerTime\r": "1:13:20 PM\r"
+      { "answerOption": "A", "answerText": "Illinois", "isCorrect": false },
+      { "answerOption": "B", "answerText": "Vermont", "isCorrect": true },
+      { "answerOption": "C", "answerText": "Georgia", "isCorrect": false }
+    ]
   },
   {
-    "": 36,
-    "showID": 5091819,
-    "questionID": 38313,
-    "questionNumber": 1,
-    "category": "Movies",
     "question": "What wise creature once said, \"Do, or do not. There is no try\"?",
-    "questionTime": "7:03:27 PM",
     "answers": [
       {
         "answerOption": "A",
         "answerText": "Abraham Lincoln",
-        "isCorrect": "FALSE"
+        "isCorrect": false
       },
-      { "answerOption": "B", "answerText": "Yoda", "isCorrect": "TRUE" },
+      { "answerOption": "B", "answerText": "Yoda", "isCorrect": true },
       {
         "answerOption": "C",
         "answerText": "Margaret Thatcher",
-        "isCorrect": "FALSE"
+        "isCorrect": false
       }
-    ],
-    "count": 145274,
-    "answerTime\r": "7:03:47 PM\r"
+    ]
   },
   {
-    "": 39,
-    "showID": 5091819,
-    "questionID": 38320,
-    "questionNumber": 2,
-    "category": "Educational",
     "question": "The Norse god Thor is famous for wielding what kind of weapon?",
-    "questionTime": "7:04:06 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Hammer", "isCorrect": "TRUE" },
-      { "answerOption": "B", "answerText": "Nunchucks", "isCorrect": "FALSE" },
-      { "answerOption": "C", "answerText": "Cattle prod", "isCorrect": "FALSE" }
-    ],
-    "count": 628306,
-    "answerTime\r": "7:04:25 PM\r"
+      { "answerOption": "A", "answerText": "Hammer", "isCorrect": true },
+      { "answerOption": "B", "answerText": "Nunchucks", "isCorrect": false },
+      { "answerOption": "C", "answerText": "Cattle prod", "isCorrect": false }
+    ]
   },
   {
-    "": 42,
-    "showID": 5091819,
-    "questionID": 38314,
-    "questionNumber": 3,
-    "category": "Educational",
     "question": "An item that is not quite good enough is often said to \"not cut the\" what?",
     "questionTime": "7:04:40 PM",
     "answers": [
-      { "answerOption": "A", "answerText": "Mustard", "isCorrect": "TRUE" },
-      { "answerOption": "B", "answerText": "Ketchup", "isCorrect": "FALSE" },
-      { "answerOption": "C", "answerText": "Mayonnaise", "isCorrect": "FALSE" }
-    ],
-    "count": 487704,
-    "answerTime\r": "7:04:58 PM\r"
+      { "answerOption": "A", "answerText": "Mustard", "isCorrect": true },
+      { "answerOption": "B", "answerText": "Ketchup", "isCorrect": false },
+      { "answerOption": "C", "answerText": "Mayonnaise", "isCorrect": false }
+    ]
   }
 ]
