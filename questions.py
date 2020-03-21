@@ -42,10 +42,17 @@ def game():
     for game_question in question_list:
         print(f'{game_question.question} {game_question.answer_a}, {game_question.answer_b}, or {game_question.answer_c}')
         guess= input("Enter A, B, or C! ")
+
+#It's this section
+
         if(guess == game_question.correct_answer):
             count = count + 1
+            game_question.card_count = int(game_question.card_count + 1)
+            game_question.save()
             print(f"Good job! The correct answer was {game_question.correct_answer}! You have gotten that card correct {game_question.card_count} times")
-            game_question.card_count = game_question.card_count + 1
+
+###
+            
         elif(guess != game_question.correct_answer):
             print(f"Not quite! The correct answer was {game_question.correct_answer}.")
     if game_question != len(question_list) - 1:
