@@ -32,7 +32,6 @@ db.drop_tables([Question])
 db.create_tables([Question])
 
 for list_element in question_data:
-    # print(list_element['question'])
     list_element = Question(question = list_element['question'], answer_a = list_element['answer_a'], answer_b = list_element['answer_b'], answer_c = list_element['answer_c'], correct_answer = list_element['correct_answer'], card_count = 0)
     list_element.save()
 
@@ -72,21 +71,3 @@ if(user == "C"):
     
 if(user == "G"):
     game()
-   
-
-
-
-
-
-
-# question_1 = Question()
-# question_1.save()
-# question_2 = Question()
-# question_2.save()
-
-# print(f"{question_1.question} {question_1.answer_a}, {question_1.answer_b}, or {question_1.answer_c}")
-# guess= input("Enter A, B, or C! ")
-# if(guess == question_1.correct_answer):
-#     print(f"Good job! The correct answer was {question_1.correct_answer}!")
-# else:
-#     print(f"Not quite! The correct answer was {question_1.correct_answer}.")
