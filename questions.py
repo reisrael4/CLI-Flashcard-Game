@@ -62,12 +62,15 @@ def game():
 user = input("To creat a card press C, to Quiz yourself, press G! ")
 if(user == "C"):
     question = input("Enter your question! ")
-    answer_a = input("Enter answer A ")
-    answer_b = input("Enter answer B ")
-    answer_c = input("Enter answer C ")
+    answer_a = input("Enter answer starting with A ")
+    answer_b = input("Enter answer starting with B ")
+    answer_c = input("Enter answer starting with C ")
     correct_answer = input("Enter the letter of the correct answer! ")
     new_question = Question(question = question, answer_a = answer_a, answer_b = answer_b, answer_c = answer_c, correct_answer = correct_answer, card_count = 0)
     new_question.save()
+    game_input = input("Would you like to play the game? y/n ")
+    if(game_input == "y"):
+        game()
     
 if(user == "G"):
     game()
